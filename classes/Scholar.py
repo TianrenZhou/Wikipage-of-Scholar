@@ -3,8 +3,8 @@ class Scholar:
         self.name = name
         self.university = university
         self.papers = []
-        self.edu = []
-        self.affiliation = []
-        self.focus = []
+        self.edu = None
+        self.affiliation = None
+        self.focus = None
         self.awards = []
-        self.collaboration = []
+        self.collaboration = None

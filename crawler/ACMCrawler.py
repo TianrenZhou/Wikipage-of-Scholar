@@ -49,5 +49,3 @@ def crawlCollaborationACM(url,xpath):
     driver.close()
     res = extractName(soup)
     return res.split('\n')
-res = crawlCollaborationACM("https://dl.acm.org/profile/81502732275","/html/body/div[1]/div/main/div[3]/div[1]/div[4]/div/div/div[2]/div[1]")
-print(res)
