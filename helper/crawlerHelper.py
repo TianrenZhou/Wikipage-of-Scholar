@@ -1,10 +1,8 @@
 def findNum(str):
-    emp_str = ""
-    for i in str:
-        if i.isdigit():
-            emp_str+=i
-    return int(emp_str)
-
+    for i in range(len(str)):
+        if str[i].isdigit():
+            return i
+    return -1
 def extractText(soup):
     for script in soup(["script", "style"]):
         script.extract()  
